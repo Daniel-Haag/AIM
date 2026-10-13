@@ -1,0 +1,5 @@
+{
+  "name": "aim-nest-fixture", "private": true,
+  "scripts": {"check": "tsc --noEmit"},
+  "dependencies": {"@nestjs/common": "^11.1.0", "reflect-metadata": "^0.2.2", "rxjs": "^7.8.2"}
+}

@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup><ProjectReference Include="../Aim.Domain/Aim.Domain.csproj" /></ItemGroup>
+</Project>

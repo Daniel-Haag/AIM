@@ -1,0 +1,12 @@
+{
+  "name": "aim-poc", "private": true, "type": "module",
+  "scripts": {
+    "test": "node --test analyzer/*.test.mjs",
+    "test:e2e": "playwright test",
+    "build": "npm run build --workspace frontend",
+    "dev": "npm run dev --workspace frontend"
+  },
+  "workspaces": ["frontend", "fixtures/nest"],
+  "dependencies": { "typescript": "5.9.3" },
+  "devDependencies": { "@playwright/test": "^1.58.0" }
+}
